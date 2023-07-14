@@ -44,3 +44,68 @@ COMSATS University, Islamabad (2022 to 2026)
 
 [1]: Much about my work can be seen on Fiverr: https://fiverr.com/mujtaba_io    
 [2]: My GitHub can be seen here: https://github.com/mujtaba-io    
+
+
+
+---
+
+
+# Extended Information
+
+## Reviews I got as a Freelancer (as of july 15, 2023)
+
+For the purpose of documentation, I copy-pasted my Fiverr reviews here:
+
+**Reviews for this seller: 5 stars (total 11 reviews)**    
+**Seller communication level: 5 stars**    
+**Recommend to a friend: 5 stars**    
+**Service as described: 5 stars**    
+
+---
+
+- **@cyberundie (5⭐) from United Kingdom**  
+  "Great job like usual. Thanks!"  
+  Published 5 days ago
+
+- **@cyberundie (5⭐) from United Kingdom**  
+  "Outstanding work done very quickly. Very polite and excellent communication. Will definitely be in touch again. It was a pleasure doing business with you."  
+  Published 1 week ago
+
+- **@thazzzak (5⭐) from Germany**  
+  "Great work."  
+  Published 1 week ago
+
+- **@platano18 (5⭐) from United States**  
+  "He was very quick and had excellent communication. My project met all of the asked requirements."  
+  Published 1 month ago
+
+- **@kadensantiago (5⭐) from United States**  
+  "Extremely fast!"  
+  Published 1 month ago
+
+- **@juli03v (5⭐) from United States**  
+  "Extremely good at communicating, completed my project in a very timely manner. Definitely recommend if you need a scratch project done!"  
+  Published 1 month ago
+
+- **@sapientcheese (5⭐) from United States**  
+  "Very fast and high-quality delivery."  
+  Published 1 month ago
+
+- **@awesome133 (5⭐) from United States**  
+  "Very fast and he knows what he's doing."  
+  Published 1 month ago
+
+- **@varunkulkarn689 (5⭐) India**  
+  "Very well cooperative, looking forward to working with him again."  
+  Published 2 months ago
+
+- **@jneumann726 (5⭐) from Switzerland**  
+  "In the end, my project was not possible, but they delivered as much as possible."  
+  Published 4 months ago
+
+- **@harrystras (5⭐) from Canada**  
+  "Got everything I ordered."  
+  Published 4 months ago
+
+---
+
