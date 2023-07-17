@@ -9,7 +9,7 @@ Phone: +92 336 569-6623
 
 ## About
 
-I have been developing computer programs since I was in grade 9. By grade 12, I developed relatively complex architectures for large scale software. By the end of my 1st year in university, I developed a freelancing application, and been working in AI and ML afterwards. Currently, I am leading Unified AI Tool's development.
+I have been developing computer programs since I was in grade 9. By grade 12, I developed relatively complex architectures for large scale software. By the end of my 1st year in university, I developed a freelancing application, and been working in AI and ML afterwards. Currently, I am working on several open source project initiatives under the name of ProgramX.
 
 
 ## Education
