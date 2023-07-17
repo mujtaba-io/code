@@ -20,25 +20,27 @@ COMSATS University, Islamabad (2022 to 2026)
 
 ## Projects
 
-### Project 1: E-commerce Website
-- Designed and developed a responsive e-commerce website using HTML, CSS, and JavaScript.
-- Implemented user authentication, product catalog and shopping cart.
-- My first project as a freelancer.
+Although comprehensive, but I filtered out best of my projects. All projects listed below are industry quality and not open sourced.
 
-### Project 2: Freelancing Platform
-- Written Flutter/Dart at frontend and Django at the backend, it was a blend of Upwork and Fiverr.
-- Not related to freelancing, but my own initiative.
-- Could not deploy due to no funding.
+### E-commerce Marketplace Website (2021)
+My first freelance work. I took requirements and created this website. It was a Django-based server with an HTML/CSS/JS/Bootstrap frontend.    
+Complexity level: ⭐️⭐️⭐️ (3/5)
 
-### Project 3: Unified AI Tool
-- Written in python, it uses a freestyle architecture, developed by keeping in mind the comprehensive level of control each part of software needs over other parts.
-- Covers a very wide domain of use-cases.
+### Freelancing Marketplace Platform (2022)
+Perhaps the most complex project I have ever taken. It was security-critical as it had payment methods integrated and user content security. I started with requirements elicitation and feasibility study, followed by the design and implementation. The model I used for the development was what I called "nested-iterative", in which each iteration itself is a whole new cycle of software development. This kept the risk to lowest. Project deployment cost and lack of funds resulted in project never being released.    
+Complexity level: ⭐️⭐️⭐️⭐️⭐️ (5/5)
 
-### Project 4: 2D Games
-- Written several 2D games in Godot and in Scratch. Most of them being part of my freelancing work.
+### Unified AI Tool (2023)
+My recent open source initiative, it is hightly volatile and I continue to develop it. It is stil in early stage of development.    
+[Current] Complexity level: ⭐️ (1/5)
 
-### Project 5: 3D Games
-- Worked in several 3D games in Godot Engine. Some of the important tasks included were infinite procedural content generation and shaders.
+### 2D Games (2021 - present)
+Written several 2D games in Godot and in Scratch. Most of them being part of my freelancing work.    
+Complexity level: ⭐️⭐️ (2/5)
+
+### 3D Games (2021 - 2023)
+Worked in several 3D games in Godot Engine. Some of the important tasks included were infinite procedural content generation and shaders. Mostly as a part of my freelance work.    
+Complexity level: ⭐️⭐️⭐️⭐️ (4/5)
 
 ## Additional Information
 
@@ -52,7 +54,7 @@ COMSATS University, Islamabad (2022 to 2026)
 
 # Extended Information
 
-## Reviews I got as a Freelancer (as of july 15, 2023)
+## Reviews I got as a freelancer (as of july 15, 2023)
 
 For the purpose of documentation, I copy-pasted my Fiverr reviews here:
 
