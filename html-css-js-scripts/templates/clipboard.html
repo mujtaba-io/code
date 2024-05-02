@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #191724;
+      color: #DAD8D4;
+    }
+    .container {
+      max-width: 100%;
+      margin: 32px auto;
+      background-color: transparent;
+      padding: 16px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+    .form-group input, .form-group select {
+      width: 100%;
+      padding: 16px;
+      background-color: #232136;
+      color: white;
+      border: 1px solid #524B49;
+      border-radius: 32px;
+      box-sizing: border-box;
+    }
+    .form-group input:focus, .form-group select:focus {
+      outline: none;
+      border-color: #6E6A68;
+    }
+    .error-message {
+      color: #FF5555;
+      margin-top: 5px;
+    }
+    .btn {
+      padding: 10px;
+      background-color: #eb6f92;
+      color: white;
+      border: none;
+      border-radius: 32px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      opacity: 0.7;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .info-box {
+        background-color: #232136;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 1px solid #524B49;
+    }
+
+    .hyper-link {
+        color: #eb6f92;
+    }
+
+    .hyper-link:hover {
+        text-decoration: underline;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .column {
+      flex: 48%;
+    }
+
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+      }
+    }
+
+    .card {
+      background-color: #232136;
+      padding: 16px;
+      border-radius: 10px;
+      border: 1px solid #524B49;
+      margin: 2px 2px 0 2px;
+      aspect-ratio: 1;
+
+      position: relative; /* For the trash icon to appear properly */
+    }
+
+    .card-hoverable {
+      transition: transform 0.2s;
+    }
+
+    .card-hoverable:hover {
+      transform: scale(1.01);
+      cursor: pointer;
+    }
+
+    .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 8px;
+            max-width: 100%;
+            margin: 32px auto;
+            padding: 16px;
+            background-color: transparent;
+        }
+
+    .button {
+      background-color: #eb6f92;
+      color: white;
+      border: none;
+      border-radius: 32px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .text-area {
+        width: 100%;
+        height: 97%;
+        background-color: #232136;
+        color: white;
+        border: 1px solid #524B49;
+        border-radius: 10px;
+        padding: 16px;
+        box-sizing: border-box;
+        scrollbar-width: thin;
+        scrollbar-color: #524B49 transparent;
+        resize: none;
+
+    }
+
+  </style>
+</head>
+<body>
+
+    <div class="container" style="max-width: 90%;">
+        <div class="row">
+            <div style="font-size: 24px;">Clipboard</div>
+            <button class="btn" onclick="window.open('https://patreon.com/mujtaba_io', '_blank')"><b>Donate</b></button>
+        </div>
+    </div>
+
+
+
+<div class="grid-container" style="max-width: 90%;">
+
+    <div class="card card-hoverable center">
+        os-lab-mid.pdf <br><br><br>
+        <i class="fa fa-file" aria-hidden="true" style="font-size: 48px; color: khaki;"></i>
+
+        <div style="position: absolute; top: -16px; right: -8px; display: flex; justify-content: center; align-items: center; width: 24px; height: 24px; background-color: #944; border-radius: 50%; padding: 4px;">
+            <i class="fa fa-trash" aria-hidden="true" style="font-size: 16px; color: #DAD8D4;"></i>
+        </div>
+
+    </div>
+
+    <div class="card card-hoverable center">
+        aysh-code.txt <br><br><br>
+        <i class="fa fa-file" aria-hidden="true" style="font-size: 48px; color: khaki;"></i>
+
+        <div style="position: absolute; top: -16px; right: -8px; display: flex; justify-content: center; align-items: center; width: 24px; height: 24px; background-color: #944; border-radius: 50%; padding: 4px;">
+            <i class="fa fa-trash" aria-hidden="true" style="font-size: 16px; color: #DAD8D4;"></i>
+        </div>
+
+    </div>
+
+    <div class="card card-hoverable">
+        <textarea class="text-area">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </textarea>
+
+        <div style="position: absolute; top: -16px; right: -8px; display: flex; justify-content: center; align-items: center; width: 24px; height: 24px; background-color: #944; border-radius: 50%; padding: 4px;">
+            <i class="fa fa-trash" aria-hidden="true" style="font-size: 16px; color: #DAD8D4;"></i>
+        </div>
+
+        <div style="position: absolute; bottom: -16px; right: -8px; display: flex; justify-content: center; align-items: center; width: 24px; height: 24px; background-color: #494; border-radius: 50%; padding: 4px;">
+          <i class="fa fa-save" aria-hidden="true" style="font-size: 16px; color: #DAD8D4;"></i>
+        </div>
+
+
+    </div>
+
+
+    <div class="card card-hoverable">Card 4</div>
+    <div class="card card-hoverable">Card 5</div>
+
+    <div class="card card-hoverable">
+        <div class="center">
+            <div style="height: 70px;"></div>
+            <i class="fa fa-plus" aria-hidden="true" style="font-size: 40px;"></i>
+        </div>
+    </div>
+
+</div>
+
+<div style="text-align: center;">
+    Made with ❤️ by Mujtaba at <a class="hyper-link" href="https://gameidea.org">gameidea</a>
+</div>
+
+
+</body>
+</html>

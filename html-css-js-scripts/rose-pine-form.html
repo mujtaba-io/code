@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #191724;
+      color: #DAD8D4;
+    }
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background-color: transparent;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+    .form-group input, .form-group select {
+      width: 100%;
+      padding: 16px;
+      background-color: #232136;
+      color: white;
+      border: 1px solid #524B49;
+      border-radius: 32px;
+      box-sizing: border-box;
+    }
+    .form-group input:focus, .form-group select:focus {
+      outline: none;
+      border-color: #6E6A68;
+    }
+    .error-message {
+      color: #FF5555;
+      margin-top: 5px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #eb6f92;
+      color: white;
+      border: none;
+      border-radius: 32px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    <div style="text-align: center; font-size: 32px;">Signup! on Scooby</div>
+    <br><br>
+    <form id="registrationForm" action="#" method="post" novalidate>
+        <div class="form-group">
+            <input type="text" id="username" name="username" placeholder="Username" required minlength="5">
+            <div id="usernameError" class="error-message"></div>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <div id="emailError" class="error-message"></div>
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" name="password" placeholder="Password" required minlength="8">
+            <div id="passwordError" class="error-message"></div>
+        </div>
+        <div class="form-group">
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Password again" required>
+            <div id="confirmPasswordError" class="error-message"></div>
+        </div>
+        <div class="form-group">
+            <select id="role" name="role" required>
+                <option value="">Select Role</option>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select>
+            <div id="roleError" class="error-message"></div>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <br><br><br><br>
+    <div style="text-align: center;">
+        Copyright (c) 2024 gameidea.org
+    </div>
+</div>
+
+<script>
+    document.getElementById("registrationForm").addEventListener("submit", function(event) {
+      var username = document.getElementById("username").value.trim();
+      var email = document.getElementById("email").value.trim();
+      var password = document.getElementById("password").value.trim();
+      var confirmPassword = document.getElementById("confirmPassword").value.trim();
+      var role = document.getElementById("role").value;
+
+      var isValid = true;
+
+      // Username validation
+      if (username.length < 5) {
+        document.getElementById("usernameError").textContent = "Username must be at least 5 characters long.";
+        isValid = false;
+      } else {
+        document.getElementById("usernameError").textContent = "";
+      }
+
+      // Email validation
+      if (!isValidEmail(email)) {
+        document.getElementById("emailError").textContent = "Invalid email address.";
+        isValid = false;
+      } else {
+        document.getElementById("emailError").textContent = "";
+      }
+
+      // Password validation
+      if (password.length < 8) {
+        document.getElementById("passwordError").textContent = "Password must be at least 8 characters long.";
+        isValid = false;
+      } else {
+        document.getElementById("passwordError").textContent = "";
+      }
+
+      // Confirm password validation
+      if (confirmPassword !== password) {
+        document.getElementById("confirmPasswordError").textContent = "Passwords do not match.";
+        isValid = false;
+      } else {
+        document.getElementById("confirmPasswordError").textContent = "";
+      }
+
+      // Role validation
+      if (role === "") {
+        document.getElementById("roleError").textContent = "Please select a role.";
+        isValid = false;
+      } else {
+        document.getElementById("roleError").textContent = "";
+      }
+
+      if (!isValid) {
+        event.preventDefault();
+      }
+    });
+
+    function isValidEmail(email) {
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+  </script>
+</body>
+</html>
